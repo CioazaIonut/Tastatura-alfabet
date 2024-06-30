@@ -49,7 +49,7 @@ buttonReset.addEventListener("click",resetButtonAlfabet);
 //                Backspace button
 
 const buttonBackspaceToOne = () => {
-
+    input.value= input.value.substring(0, input.value.length-1);
 }
 
 buttonBackspace.addEventListener("click",buttonBackspaceToOne);
@@ -57,8 +57,6 @@ buttonBackspace.addEventListener("click",buttonBackspaceToOne);
 
 /* tema
 
-de pus imagine de fundal
-butoanele de celtrat max with 1200 px
-un buton de sters
+de pus margin top intre toate butoanele  ----------Facut-----------
 
 */

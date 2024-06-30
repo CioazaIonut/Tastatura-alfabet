@@ -80,11 +80,17 @@
   
     border-radius: 4px;
     cursor: pointer;
+
+    width: 80px;
+}
+
+.universal-container{
+    margin-top: 16px;
 }
 
 
 @media (min-width: 500px) {
     .taste-container{
-        max-width: 1200px;
+        max-width: 1150px;
     }
 }
